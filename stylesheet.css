@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: left;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  background-color: rgba(251,140,1,0.9);
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+.header-left {
+  float: left;
+  padding-top: 10px
+}
+.logo {
+  width: 45px;
+
+}
+.header-right {
+  float: right;
+  padding-right: -25px;
+}
+.header-right a {
+  line-height: 70px;
+  padding: 0 25px;
+  color: #000000;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.header-right a:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.fa {
+  margin-right: 5px;
+}
+.heading {
+  height: 500px;
+  text-align: center;
+  color: black;
+  background-image: url('img/bg-utamaa.jpg');
+  background-color: white;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-left{
+  margin-bottom:20px;
+  width: 600px;
+}
+.heading-right img{
+  width:60%;
+}
+.btn2 {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 24px;
+  background-color: #FFB463;
+  border-radius: 15px;
+  color: black;
+  opacity: 0.8;
+  box-shadow: 0 7px #42372c;
+}
+.btn2:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.btn2:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.main {
+  height: 400px;
+  text-align: center;
+  background-color: #373737;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.main p {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.title {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+.contact-info h3{
+  margin-top: 10px;
+  align-items: center;
+  color: #333;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.contact-info {
+  background: #c2c0bc;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-right: 5px;
+  padding: 10px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+  float: left;
+  width: 200px;
+}
+.foto {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #c2c0bc;
+}
+
+.name {
+  color: #333;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.detail {
+  color: #333;
+  margin: 12px 0;
+  font-size: 14px;
+}
+.foto img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.contacts p {
+  padding: 10px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #003CFF;
+  border-radius: 15px;
+  color: white;
+  opacity: 0.8;
+  box-shadow: 0 7px #0026A4;
+}
+.btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  border-top: 1px solid #eee;
+  height: 65px;
+}
+footer img {
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: block;
+}
+
+footer h1 {
+  color: #b3aeb5;
+  font-size: 15px;
+  float: left;
+  margin-bottom: 10px;
+
+}
+
+footer h2 {
+  color: #b3aeb5;
+  font-size: 15px;
+  float: right;
+}
+.instagram span {
+  padding-right: 5px;
+}
